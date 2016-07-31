@@ -54,18 +54,14 @@ You are old.
 ```
 ## Explanation
 
-Test Case 0: **_initialAge_ = -1**
-
+Test Case 0: **_initialAge_ = -1** 
 Because **_initialAge_ < 0**, our code must set **_age_** to **0** and print the "Age is not valid..." message followed by the young message. Three years pass and **_age_ = 3**, so we print the young message again.
 
-Test Case 1: **_initialAge_ = 10**
-
+Test Case 1: **_initialAge_ = 10** 
 Because **_initialAge_ < 13**, our code should print that the person is young. Three years pass and **_age_ = 13**, so we print that the person is now a teenager.
 
-Test Case 2: **_initialAge_ = 16**
-
+Test Case 2: **_initialAge_ = 16** 
 Because **_initialAge_ < 18**, our code should print that the person is a teenager. Three years pass and **_age_ = 19**, so we print that the person is old.
 
-Test Case 3: **_initialAge_ = 18** 
-
+Test Case 3: **_initialAge_ = 18**  
 Because **_initialAge_ > 18**, our code should print that the person is old. Three years pass and the person is still old at **_age_ = 21**, so we print the old message again.
