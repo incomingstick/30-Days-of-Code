@@ -1,43 +1,45 @@
-#include <stdio.h>
+#include <iostream>
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
+
+using namespace std;
 
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int T;
     
-    scanf("%d", &T);
+    cin >> T;
 
     if(T < 1 || T > 10) {
-        printf("T (%d) too big try again.", T);
+        cout << "T " << T << " too big try again." << endl;
 
         return main();
     }
 
-    char a[T][10000];
+    string a[T];
 
     for(int i = 0; i < T; i++) {
-        char S[10000];
-        scanf("%10000s", S);
-        strcpy(a[i], S);
+        string S;
+        cin >> S;
+        a[i] = S;
     }
 
     for(int i = 0; i < T; i++) {
-        char even[10000] = "";
-        char odd[10000] = "";
+        string even = "";
+        string odd = "";
 
-        for (int j = 0; j < strlen(a[i]); j++) {
+        for (int j = 0; j < a[i].size(); j++) {
             char c = a[i][j];
 
             if(j % 2 == 0) {
-                even[strlen(even)] = c;
+                even += c;
             } else {
-                odd[strlen(odd)] = c;
+                odd += c;
             }
         }
 
-        printf("%s %s\n", even, odd);
+        cout << even << " " << odd << endl;
     }
 
     return 0;
