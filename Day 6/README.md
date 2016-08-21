@@ -1,3 +1,4 @@
+# Day 6: Let's Review
 ## Objective 
 Today we're expanding our knowledge of Strings and combining it with what we've already learned about loops. Check out the [Tutorial](https://www.hackerrank.com/challenges/30-review-loop/tutorial) tab for learning materials and an instructional video!
 
