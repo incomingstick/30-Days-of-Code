@@ -13,7 +13,7 @@ A single integer, **_n_**.
 - **1 <= _n_ <= 10^6**
 ## Output Format
 
-Print a single base-**10** integer denoting the maximum number of consecutive **1**'s in the binary representation of **_n  _**.
+Print a single base-**10** integer denoting the maximum number of consecutive **1**'s in the binary representation of **_n _**.
 
 ## Sample Input 1
 ```
@@ -34,7 +34,7 @@ Print a single base-**10** integer denoting the maximum number of consecutive **
 ## Explanation
 
 _Sample Case 1:_  
-The binary representation of **5** is **101**, so the maximum number of consecutive 's is **1**.
+The binary representation of **5** is **101**, so the maximum number of consecutive **1**'s is **1**.
 
 _Sample Case 2:_  
 The binary representation of **13** is **1101**, so the maximum number of consecutive **1**'s is **2**.
