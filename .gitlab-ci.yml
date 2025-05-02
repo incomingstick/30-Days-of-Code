@@ -1,0 +1,14 @@
+---
+image: github/super-linter:latest
+
+stages:
+  - lint
+
+lint:
+  stage: lint
+  tags:
+    - x86_64
+  script: [""]
+  variables:
+    RUN_LOCAL: "true"
+    DEFAULT_WORKSPACE: $CI_PROJECT_DIR
