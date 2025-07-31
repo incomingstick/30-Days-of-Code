@@ -1,0 +1,12 @@
+---
+include:
+  - template: "Jobs/Secret-Detection.gitlab-ci.yml"
+  - template: "Jobs/SAST.gitlab-ci.yml"
+
+secret_detection:
+  tags:
+    - "x86_64"
+
+sast:
+  tags:
+    - "x86_64"
