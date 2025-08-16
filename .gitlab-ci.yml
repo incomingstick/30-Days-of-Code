@@ -1,6 +1,6 @@
 ---
 include:
-  - local: "/.gitlab/test.yml"
+  - local: .gitlab/test.yml
 
 stages:
   - test
